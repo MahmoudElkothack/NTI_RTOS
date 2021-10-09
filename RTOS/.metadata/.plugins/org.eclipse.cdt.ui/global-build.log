@@ -1,0 +1,1635 @@
+01:33:00 **** Build of configuration Debug for project blinkled ****
+make -j12 all 
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/croutine.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/croutine.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/croutine.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/croutine.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/event_groups.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/event_groups.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/event_groups.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/list.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/list.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/list.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/list.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/queue.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/queue.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/queue.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/queue.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/tasks.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/tasks.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/tasks.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/tasks.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/timers.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/timers.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/timers.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/timers.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o"
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f103c8tx.d" -MT"Core/Startup/startup_stm32f103c8tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32f103c8tx.o" "../Core/Startup/startup_stm32f103c8tx.s"
+arm-none-eabi-gcc "../Core/Src/freertos.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/freertos.d" -MT"Core/Src/freertos.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/freertos.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_timebase_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_timebase_tim.d" -MT"Core/Src/stm32f1xx_hal_timebase_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_timebase_tim.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:94:13: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+ xTaskCreate(T_1, NULL, 100, NULL, 1, NULL);
+             ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:252:6: error: expected identifier or '(' before '{' token
+ void {
+      ^
+../Core/Src/main.c:254:10: error: unknown type name 'Exception'
+ } catch (Exception e) {
+          ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:41: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+01:33:32 **** Incremental Build of configuration Debug for project blinkled ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:94:13: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+ xTaskCreate(T_1, NULL, 100, NULL, 1, NULL);
+             ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+arm-none-eabi-gcc -o "blinkled.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\blinkled\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="blinkled.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: blinkled.elf
+ 
+arm-none-eabi-size   blinkled.elf 
+arm-none-eabi-objdump -h -S  blinkled.elf  > "blinkled.list"
+arm-none-eabi-objcopy  -O binary  blinkled.elf  "blinkled.bin"
+   text	   data	    bss	    dec	    hex	filename
+  16676	     24	   8184	  24884	   6134	blinkled.elf
+Finished building: default.size.stdout
+ 
+Finished building: blinkled.bin
+ 
+Finished building: blinkled.list
+ 
+01:33:46 **** Incremental Build of configuration Debug for project blinkled ****
+make -j12 all 
+arm-none-eabi-size   blinkled.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16676	     24	   8184	  24884	   6134	blinkled.elf
+Finished building: default.size.stdout
+ 
+01:41:33 **** Incremental Build of configuration Debug for project blinkled ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:94:13: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+ xTaskCreate(T_1, NULL, 100, NULL, 1, NULL);
+             ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+arm-none-eabi-gcc -o "blinkled.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\blinkled\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="blinkled.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: blinkled.elf
+ 
+arm-none-eabi-objdump -h -S  blinkled.elf  > "blinkled.list"
+arm-none-eabi-objcopy  -O binary  blinkled.elf  "blinkled.bin"
+arm-none-eabi-size   blinkled.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16436	     24	   8184	  24644	   6044	blinkled.elf
+Finished building: default.size.stdout
+ 
+Finished building: blinkled.bin
+ 
+Finished building: blinkled.list
+ 
+01:41:48 **** Incremental Build of configuration Debug for project blinkled ****
+make -j12 all 
+arm-none-eabi-size   blinkled.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16436	     24	   8184	  24644	   6044	blinkled.elf
+Finished building: default.size.stdout
+ 
+01:42:48 **** Incremental Build of configuration Debug for project blinkled ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:94:13: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+ xTaskCreate(T_1, NULL, 100, NULL, 1, NULL);
+             ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+arm-none-eabi-gcc -o "blinkled.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\blinkled\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="blinkled.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: blinkled.elf
+ 
+arm-none-eabi-objdump -h -S  blinkled.elf  > "blinkled.list"
+arm-none-eabi-objcopy  -O binary  blinkled.elf  "blinkled.bin"
+arm-none-eabi-size   blinkled.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16676	     24	   8184	  24884	   6134	blinkled.elf
+Finished building: default.size.stdout
+ 
+Finished building: blinkled.bin
+ 
+Finished building: blinkled.list
+ 
+01:48:19 **** Incremental Build of configuration Debug for project blinkled ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:88:13: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+ xTaskCreate(T_1, NULL, 100, NULL, 1, NULL);
+             ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:250:21: error: expected expression before ',' token
+  HAL_GPIO_TogglePin(, GPIO_PIN_13);
+                     ^
+make: *** [Core/Src/subdir.mk:41: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+01:48:38 **** Incremental Build of configuration Debug for project blinkled ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:88:13: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+ xTaskCreate(T_1, NULL, 100, NULL, 1, NULL);
+             ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+arm-none-eabi-gcc -o "blinkled.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\blinkled\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="blinkled.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: blinkled.elf
+ 
+arm-none-eabi-objdump -h -S  blinkled.elf  > "blinkled.list"
+arm-none-eabi-objcopy  -O binary  blinkled.elf  "blinkled.bin"
+arm-none-eabi-size   blinkled.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16676	     24	   8184	  24884	   6134	blinkled.elf
+Finished building: default.size.stdout
+ 
+Finished building: blinkled.bin
+ 
+Finished building: blinkled.list
+ 
+01:48:44 **** Incremental Build of configuration Debug for project blinkled ****
+make -j12 all 
+arm-none-eabi-size   blinkled.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16676	     24	   8184	  24884	   6134	blinkled.elf
+Finished building: default.size.stdout
+ 
+01:50:14 **** Incremental Build of configuration Debug for project blinkled ****
+make -j12 all 
+arm-none-eabi-size   blinkled.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16676	     24	   8184	  24884	   6134	blinkled.elf
+Finished building: default.size.stdout
+ 
+01:50:49 **** Incremental Build of configuration Debug for project blinkled ****
+make -j12 all 
+arm-none-eabi-size   blinkled.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16676	     24	   8184	  24884	   6134	blinkled.elf
+Finished building: default.size.stdout
+ 
+01:51:31 **** Incremental Build of configuration Debug for project blinkled ****
+make -j12 all 
+arm-none-eabi-size   blinkled.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16676	     24	   8184	  24884	   6134	blinkled.elf
+Finished building: default.size.stdout
+ 
+01:57:24 **** Incremental Build of configuration Debug for project blinkled ****
+make -j12 all 
+arm-none-eabi-size   blinkled.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16676	     24	   8184	  24884	   6134	blinkled.elf
+Finished building: default.size.stdout
+ 
+01:57:29 **** Incremental Build of configuration Debug for project blinkled ****
+make -j12 all 
+arm-none-eabi-size   blinkled.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16676	     24	   8184	  24884	   6134	blinkled.elf
+Finished building: default.size.stdout
+ 
+10:45:01 **** Build of configuration Debug for project blinkledwithdebug ****
+make -j12 all 
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/croutine.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/croutine.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/croutine.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/croutine.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/event_groups.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/event_groups.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/event_groups.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/list.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/list.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/list.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/list.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/queue.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/queue.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/queue.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/queue.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/tasks.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/tasks.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/tasks.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/tasks.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/timers.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/timers.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/timers.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/timers.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f103c8tx.d" -MT"Core/Startup/startup_stm32f103c8tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32f103c8tx.o" "../Core/Startup/startup_stm32f103c8tx.s"
+arm-none-eabi-gcc "../Core/Src/freertos.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/freertos.d" -MT"Core/Src/freertos.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/freertos.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_timebase_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_timebase_tim.d" -MT"Core/Src/stm32f1xx_hal_timebase_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_timebase_tim.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+arm-none-eabi-gcc -o "blinkledwithdebug.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\blinkledwithdebug\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="blinkledwithdebug.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: blinkledwithdebug.elf
+ 
+arm-none-eabi-size   blinkledwithdebug.elf 
+arm-none-eabi-objdump -h -S  blinkledwithdebug.elf  > "blinkledwithdebug.list"
+arm-none-eabi-objcopy  -O binary  blinkledwithdebug.elf  "blinkledwithdebug.bin"
+   text	   data	    bss	    dec	    hex	filename
+  16612	     24	   8120	  24756	   60b4	blinkledwithdebug.elf
+Finished building: default.size.stdout
+ 
+Finished building: blinkledwithdebug.bin
+ 
+Finished building: blinkledwithdebug.list
+ 
+10:46:11 **** Incremental Build of configuration Debug for project blinkledwithdebug ****
+make -j12 all 
+arm-none-eabi-size   blinkledwithdebug.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16612	     24	   8120	  24756	   60b4	blinkledwithdebug.elf
+Finished building: default.size.stdout
+ 
+10:46:54 **** Incremental Build of configuration Debug for project blinkledwithdebug ****
+make -j12 all 
+arm-none-eabi-size   blinkledwithdebug.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16612	     24	   8120	  24756	   60b4	blinkledwithdebug.elf
+Finished building: default.size.stdout
+ 
+10:47:51 **** Incremental Build of configuration Debug for project blinkledwithdebug ****
+make -j12 all 
+arm-none-eabi-size   blinkledwithdebug.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16612	     24	   8120	  24756	   60b4	blinkledwithdebug.elf
+Finished building: default.size.stdout
+ 
+10:49:48 **** Incremental Build of configuration Debug for project blinkledwithdebug ****
+make -j12 all 
+arm-none-eabi-size   blinkledwithdebug.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16612	     24	   8120	  24756	   60b4	blinkledwithdebug.elf
+Finished building: default.size.stdout
+ 
+10:50:47 **** Incremental Build of configuration Debug for project blinkledwithdebug ****
+make -j12 all 
+arm-none-eabi-size   blinkledwithdebug.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16612	     24	   8120	  24756	   60b4	blinkledwithdebug.elf
+Finished building: default.size.stdout
+ 
+10:51:00 **** Incremental Build of configuration Debug for project blinkledwithdebug ****
+make -j12 all 
+arm-none-eabi-size   blinkledwithdebug.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16612	     24	   8120	  24756	   60b4	blinkledwithdebug.elf
+Finished building: default.size.stdout
+ 
+12:03:11 **** Incremental Build of configuration Debug for project blinkledwithdebug ****
+make -j12 all 
+arm-none-eabi-size   blinkledwithdebug.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16612	     24	   8120	  24756	   60b4	blinkledwithdebug.elf
+Finished building: default.size.stdout
+ 
+12:03:46 **** Incremental Build of configuration Debug for project blinkledwithdebug ****
+make -j12 all 
+arm-none-eabi-size   blinkledwithdebug.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16612	     24	   8120	  24756	   60b4	blinkledwithdebug.elf
+Finished building: default.size.stdout
+ 
+12:13:15 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17988	     24	   8184	  26196	   6654	try_sec.elf
+Finished building: default.size.stdout
+ 
+12:13:25 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17988	     24	   8184	  26196	   6654	try_sec.elf
+Finished building: default.size.stdout
+ 
+12:25:20 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17988	     24	   8184	  26196	   6654	try_sec.elf
+Finished building: default.size.stdout
+ 
+13:30:14 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17988	     24	   8184	  26196	   6654	try_sec.elf
+Finished building: default.size.stdout
+ 
+15:37:00 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:143:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_1,NULL,100,NULL,1,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:257:18: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+      xTaskCreate(T_3, NULL, 100, NULL,3, NULL);
+                  ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:260:18: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+      xTaskCreate(T_2, NULL, 100, NULL,2, NULL);
+                  ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+arm-none-eabi-gcc -o "try_sec.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\try_sec\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="try_sec.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: try_sec.elf
+ 
+arm-none-eabi-objdump -h -S  try_sec.elf  > "try_sec.list"
+arm-none-eabi-objcopy  -O binary  try_sec.elf  "try_sec.bin"
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19340	     24	   8232	  27596	   6bcc	try_sec.elf
+Finished building: default.size.stdout
+ 
+Finished building: try_sec.bin
+ 
+Finished building: try_sec.list
+ 
+15:37:40 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19340	     24	   8232	  27596	   6bcc	try_sec.elf
+Finished building: default.size.stdout
+ 
+15:41:32 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:143:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_1,NULL,100,NULL,1,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:257:18: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+      xTaskCreate(T_3, NULL, 100, NULL,3, NULL);
+                  ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:260:18: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+      xTaskCreate(T_2, NULL, 100, NULL,2, NULL);
+                  ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+arm-none-eabi-gcc -o "try_sec.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\try_sec\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="try_sec.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: try_sec.elf
+ 
+arm-none-eabi-objdump -h -S  try_sec.elf  > "try_sec.list"
+arm-none-eabi-objcopy  -O binary  try_sec.elf  "try_sec.bin"
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19228	     24	   8232	  27484	   6b5c	try_sec.elf
+Finished building: default.size.stdout
+ 
+Finished building: try_sec.bin
+ 
+Finished building: try_sec.list
+ 
+15:41:39 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19228	     24	   8232	  27484	   6b5c	try_sec.elf
+Finished building: default.size.stdout
+ 
+15:49:51 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19228	     24	   8232	  27484	   6b5c	try_sec.elf
+Finished building: default.size.stdout
+ 
+15:52:10 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:143:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_1,NULL,100,NULL,1,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:257:18: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+      xTaskCreate(T_3, NULL, 100, NULL,3, NULL);
+                  ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:260:18: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+      xTaskCreate(T_2, NULL, 100, NULL,2, NULL);
+                  ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+arm-none-eabi-gcc -o "try_sec.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\try_sec\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="try_sec.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: try_sec.elf
+ 
+arm-none-eabi-objdump -h -S  try_sec.elf  > "try_sec.list"
+arm-none-eabi-objcopy  -O binary  try_sec.elf  "try_sec.bin"
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18728	     24	   8232	  26984	   6968	try_sec.elf
+Finished building: default.size.stdout
+ 
+Finished building: try_sec.bin
+ 
+Finished building: try_sec.list
+ 
+15:52:21 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18728	     24	   8232	  26984	   6968	try_sec.elf
+Finished building: default.size.stdout
+ 
+15:53:23 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18728	     24	   8232	  26984	   6968	try_sec.elf
+Finished building: default.size.stdout
+ 
+15:54:20 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18728	     24	   8232	  26984	   6968	try_sec.elf
+Finished building: default.size.stdout
+ 
+15:56:05 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18728	     24	   8232	  26984	   6968	try_sec.elf
+Finished building: default.size.stdout
+ 
+15:56:15 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18728	     24	   8232	  26984	   6968	try_sec.elf
+Finished building: default.size.stdout
+ 
+15:56:48 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18728	     24	   8232	  26984	   6968	try_sec.elf
+Finished building: default.size.stdout
+ 
+15:57:08 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18728	     24	   8232	  26984	   6968	try_sec.elf
+Finished building: default.size.stdout
+ 
+16:06:57 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:143:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_1,NULL,100,NULL,1,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:258:16: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+    xTaskCreate(T_3, NULL, 100, NULL,3, t_3);
+                ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:261:19: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+       xTaskCreate(T_2, NULL, 100, NULL,2, t_2);
+                   ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:258:4: warning: 't_3' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    xTaskCreate(T_3, NULL, 100, NULL,3, t_3);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:261:7: warning: 't_2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       xTaskCreate(T_2, NULL, 100, NULL,2, t_2);
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "try_sec.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\try_sec\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="try_sec.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: try_sec.elf
+ 
+arm-none-eabi-objdump -h -S  try_sec.elf  > "try_sec.list"
+arm-none-eabi-objcopy  -O binary  try_sec.elf  "try_sec.bin"
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18968	     24	   8232	  27224	   6a58	try_sec.elf
+Finished building: default.size.stdout
+ 
+Finished building: try_sec.bin
+ 
+Finished building: try_sec.list
+ 
+16:07:33 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18968	     24	   8232	  27224	   6a58	try_sec.elf
+Finished building: default.size.stdout
+ 
+16:09:21 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18968	     24	   8232	  27224	   6a58	try_sec.elf
+Finished building: default.size.stdout
+ 
+16:10:17 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:143:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_1,NULL,100,NULL,1,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:258:16: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+    xTaskCreate(T_3, NULL, 100, NULL,3, t_3);
+                ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:261:19: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+       xTaskCreate(T_2, NULL, 100, NULL,2, t_2);
+                   ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:258:4: warning: 't_3' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    xTaskCreate(T_3, NULL, 100, NULL,3, t_3);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:261:7: warning: 't_2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       xTaskCreate(T_2, NULL, 100, NULL,2, t_2);
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "try_sec.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\try_sec\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="try_sec.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: try_sec.elf
+ 
+arm-none-eabi-objdump -h -S  try_sec.elf  > "try_sec.list"
+arm-none-eabi-objcopy  -O binary  try_sec.elf  "try_sec.bin"
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18856	     24	   8224	  27104	   69e0	try_sec.elf
+Finished building: default.size.stdout
+ 
+Finished building: try_sec.bin
+ 
+Finished building: try_sec.list
+ 
+16:10:21 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18856	     24	   8224	  27104	   69e0	try_sec.elf
+Finished building: default.size.stdout
+ 
+16:15:14 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:143:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_1,NULL,100,NULL,1,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:270:7: warning: 't_2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       vTaskDelete(t_2);
+       ^~~~~~~~~~~~~~~~
+../Core/Src/main.c:271:7: warning: 't_3' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       vTaskDelete(t_3);
+       ^~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "try_sec.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\try_sec\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="try_sec.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: try_sec.elf
+ 
+arm-none-eabi-objdump -h -S  try_sec.elf  > "try_sec.list"
+arm-none-eabi-objcopy  -O binary  try_sec.elf  "try_sec.bin"
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18664	     24	   8224	  26912	   6920	try_sec.elf
+Finished building: default.size.stdout
+ 
+Finished building: try_sec.bin
+ 
+Finished building: try_sec.list
+ 
+16:15:19 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18664	     24	   8224	  26912	   6920	try_sec.elf
+Finished building: default.size.stdout
+ 
+16:23:12 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18664	     24	   8224	  26912	   6920	try_sec.elf
+Finished building: default.size.stdout
+ 
+16:23:55 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18664	     24	   8224	  26912	   6920	try_sec.elf
+Finished building: default.size.stdout
+ 
+16:25:19 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18664	     24	   8224	  26912	   6920	try_sec.elf
+Finished building: default.size.stdout
+ 
+16:25:40 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18664	     24	   8224	  26912	   6920	try_sec.elf
+Finished building: default.size.stdout
+ 
+16:25:58 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:143:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_1,NULL,100,NULL,1,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:270:7: warning: 't_2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       vTaskDelete(t_2);
+       ^~~~~~~~~~~~~~~~
+../Core/Src/main.c:271:7: warning: 't_3' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       vTaskDelete(t_3);
+       ^~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "try_sec.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\try_sec\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="try_sec.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: try_sec.elf
+ 
+arm-none-eabi-objdump -h -S  try_sec.elf  > "try_sec.list"
+arm-none-eabi-objcopy  -O binary  try_sec.elf  "try_sec.bin"
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14692	     24	   6128	  20844	   516c	try_sec.elf
+Finished building: default.size.stdout
+ 
+Finished building: try_sec.bin
+ 
+Finished building: try_sec.list
+ 
+16:26:02 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14692	     24	   6128	  20844	   516c	try_sec.elf
+Finished building: default.size.stdout
+ 
+16:27:29 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:144:19: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+       xTaskCreate(T_2,NULL,100,NULL,2,NULL);
+                   ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:146:18: error: 'T_4' undeclared (first use in this function); did you mean 'T_3'?
+      xTaskCreate(T_4,NULL,100,NULL,4,NULL);
+                  ^~~
+                  T_3
+../Core/Src/main.c:146:18: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:41: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+16:27:35 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:144:19: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+       xTaskCreate(T_2,NULL,100,NULL,2,NULL);
+                   ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:146:18: error: 'T_4' undeclared (first use in this function); did you mean 'T_3'?
+      xTaskCreate(T_4,NULL,100,NULL,4,NULL);
+                  ^~~
+                  T_3
+../Core/Src/main.c:146:18: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:41: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+16:28:15 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:144:19: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+       xTaskCreate(T_2,NULL,100,NULL,2,NULL);
+                   ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:146:18: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+      xTaskCreate(T_4,NULL,100,NULL,4,NULL);
+                  ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:270:7: warning: 't_2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       vTaskDelete(t_2);
+       ^~~~~~~~~~~~~~~~
+../Core/Src/main.c:271:7: warning: 't_3' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       vTaskDelete(t_3);
+       ^~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "try_sec.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\try_sec\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="try_sec.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: try_sec.elf
+ 
+arm-none-eabi-objdump -h -S  try_sec.elf  > "try_sec.list"
+arm-none-eabi-objcopy  -O binary  try_sec.elf  "try_sec.bin"
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17360	     24	   8224	  25608	   6408	try_sec.elf
+Finished building: default.size.stdout
+ 
+Finished building: try_sec.bin
+ 
+Finished building: try_sec.list
+ 
+16:28:20 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17360	     24	   8224	  25608	   6408	try_sec.elf
+Finished building: default.size.stdout
+ 
+16:37:28 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:143:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_1,NULL,100,NULL,1,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:259:38: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, t_3);
+                                      ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:262:36: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, t_2);
+                                    ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:270:10: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+       if(returned =pdPASS)
+          ^~~~~~~~
+../Core/Src/main.c:274:10: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+       if(ret= pdPASS)
+          ^~~
+../Core/Src/main.c:259:15: warning: 't_3' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, t_3);
+               ^~~~~~~~
+../Core/Src/main.c:262:18: warning: 't_2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, t_2);
+                  ^~~
+arm-none-eabi-gcc -o "try_sec.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\try_sec\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="try_sec.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: try_sec.elf
+ 
+arm-none-eabi-objdump -h -S  try_sec.elf  > "try_sec.list"
+arm-none-eabi-objcopy  -O binary  try_sec.elf  "try_sec.bin"
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18896	     24	   8224	  27144	   6a08	try_sec.elf
+Finished building: default.size.stdout
+ 
+Finished building: try_sec.bin
+ 
+Finished building: try_sec.list
+ 
+16:37:34 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18896	     24	   8224	  27144	   6a08	try_sec.elf
+Finished building: default.size.stdout
+ 
+17:10:15 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18896	     24	   8224	  27144	   6a08	try_sec.elf
+Finished building: default.size.stdout
+ 
+17:10:29 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18896	     24	   8224	  27144	   6a08	try_sec.elf
+Finished building: default.size.stdout
+ 
+17:12:15 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18896	     24	   8224	  27144	   6a08	try_sec.elf
+Finished building: default.size.stdout
+ 
+17:15:37 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:143:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_1,NULL,100,NULL,1,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:259:62: error: 't_3' undeclared (first use in this function); did you mean 'T_3'?
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, t_3);
+                                                              ^~~
+                                                              T_3
+../Core/Src/main.c:259:62: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:259:38: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, t_3);
+                                      ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:262:60: error: 't_2' undeclared (first use in this function); did you mean 't_3'?
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, t_2);
+                                                            ^~~
+                                                            t_3
+../Core/Src/main.c:262:36: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, t_2);
+                                    ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:262:18: warning: unused variable 'ret' [-Wunused-variable]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, t_2);
+                  ^~~
+../Core/Src/main.c:259:15: warning: unused variable 'returned' [-Wunused-variable]
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, t_3);
+               ^~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:306:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [Core/Src/subdir.mk:41: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+17:15:58 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:143:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_1,NULL,100,NULL,1,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:259:62: error: 't_3' undeclared (first use in this function); did you mean 'T_3'?
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, t_3);
+                                                              ^~~
+                                                              T_3
+../Core/Src/main.c:259:62: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:259:38: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, t_3);
+                                      ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:262:60: error: 't_2' undeclared (first use in this function); did you mean 't_3'?
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, t_2);
+                                                            ^~~
+                                                            t_3
+../Core/Src/main.c:262:36: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, t_2);
+                                    ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:262:18: warning: unused variable 'ret' [-Wunused-variable]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, t_2);
+                  ^~~
+../Core/Src/main.c:259:15: warning: unused variable 'returned' [-Wunused-variable]
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, t_3);
+               ^~~~~~~~
+make: *** [Core/Src/subdir.mk:41: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+17:16:59 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:143:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_1,NULL,100,NULL,1,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:255:18: warning: unused variable 't_3' [-Wunused-variable]
+      xTaskHandle t_3;
+                  ^~~
+../Core/Src/main.c:254:15: warning: unused variable 't_2' [-Wunused-variable]
+   xTaskHandle t_2;
+               ^~~
+arm-none-eabi-gcc -o "try_sec.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\try_sec\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="try_sec.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: try_sec.elf
+ 
+arm-none-eabi-objdump -h -S  try_sec.elf  > "try_sec.list"
+arm-none-eabi-objcopy  -O binary  try_sec.elf  "try_sec.bin"
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17312	     24	   8224	  25560	   63d8	try_sec.elf
+Finished building: default.size.stdout
+ 
+Finished building: try_sec.bin
+ 
+Finished building: try_sec.list
+ 
+17:17:28 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:143:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_1,NULL,100,NULL,1,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:144:19: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+       xTaskCreate(T_2,NULL,100,NULL,2,NULL);
+                   ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:145:18: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+      xTaskCreate(T_3,NULL,100,NULL,3,NULL);
+                  ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:146:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_4,NULL,100,NULL,4,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:255:18: warning: unused variable 't_3' [-Wunused-variable]
+      xTaskHandle t_3;
+                  ^~~
+../Core/Src/main.c:254:15: warning: unused variable 't_2' [-Wunused-variable]
+   xTaskHandle t_2;
+               ^~~
+arm-none-eabi-gcc -o "try_sec.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\try_sec\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="try_sec.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: try_sec.elf
+ 
+arm-none-eabi-objdump -h -S  try_sec.elf  > "try_sec.list"
+arm-none-eabi-objcopy  -O binary  try_sec.elf  "try_sec.bin"
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17536	     24	   8224	  25784	   64b8	try_sec.elf
+Finished building: default.size.stdout
+ 
+Finished building: try_sec.bin
+ 
+Finished building: try_sec.list
+ 
+17:17:43 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17536	     24	   8224	  25784	   64b8	try_sec.elf
+Finished building: default.size.stdout
+ 
+17:18:38 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17536	     24	   8224	  25784	   64b8	try_sec.elf
+Finished building: default.size.stdout
+ 
+17:20:25 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17536	     24	   8224	  25784	   64b8	try_sec.elf
+Finished building: default.size.stdout
+ 
+17:22:20 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17536	     24	   8224	  25784	   64b8	try_sec.elf
+Finished building: default.size.stdout
+ 
+17:23:09 **** Incremental Build of configuration Debug for project blinkled ****
+make -j12 all 
+arm-none-eabi-size   blinkled.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16676	     24	   8184	  24884	   6134	blinkled.elf
+Finished building: default.size.stdout
+ 
+17:29:21 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17536	     24	   8224	  25784	   64b8	try_sec.elf
+Finished building: default.size.stdout
+ 
+17:32:40 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17536	     24	   8224	  25784	   64b8	try_sec.elf
+Finished building: default.size.stdout
+ 
+17:33:34 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:143:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_1,NULL,100,NULL,1,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:144:19: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+       xTaskCreate(T_2,NULL,100,NULL,2,NULL);
+                   ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:145:18: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+      xTaskCreate(T_3,NULL,100,NULL,3,NULL);
+                  ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:146:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_4,NULL,100,NULL,4,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:258:18: error: 'pxTaskCode' undeclared (first use in this function); did you mean 'xTaskCreate'?
+      xTaskCreate(pxTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask)
+                  ^~~~~~~~~~
+                  xTaskCreate
+../Core/Src/main.c:258:18: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:258:30: error: 'pcName' undeclared (first use in this function)
+      xTaskCreate(pxTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask)
+                              ^~~~~~
+../Core/Src/main.c:258:38: error: 'usStackDepth' undeclared (first use in this function)
+      xTaskCreate(pxTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask)
+                                      ^~~~~~~~~~~~
+../Core/Src/main.c:258:52: error: 'pvParameters' undeclared (first use in this function); did you mean 'xTaskParameters'?
+      xTaskCreate(pxTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask)
+                                                    ^~~~~~~~~~~~
+                                                    xTaskParameters
+../Core/Src/main.c:258:66: error: 'uxPriority' undeclared (first use in this function); did you mean 'osPriority'?
+      xTaskCreate(pxTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask)
+                                                                  ^~~~~~~~~~
+                                                                  osPriority
+../Core/Src/main.c:258:78: error: 'pxCreatedTask' undeclared (first use in this function)
+      xTaskCreate(pxTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask)
+                                                                              ^~~~~~~~~~~~~
+../Core/Src/main.c:259:4: error: expected ';' before 'BaseType_t'
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, t_3);
+    ^~~~~~~~~~
+../Core/Src/main.c:262:36: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, t_2);
+                                    ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:270:10: error: 'returned' undeclared (first use in this function)
+       if(returned =pdPASS)
+          ^~~~~~~~
+../Core/Src/main.c:274:10: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+       if(ret= pdPASS)
+          ^~~
+make: *** [Core/Src/subdir.mk:41: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+17:34:51 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:143:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_1,NULL,100,NULL,1,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:144:19: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+       xTaskCreate(T_2,NULL,100,NULL,2,NULL);
+                   ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:145:18: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+      xTaskCreate(T_3,NULL,100,NULL,3,NULL);
+                  ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:146:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_4,NULL,100,NULL,4,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:259:38: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, t_3);
+                                      ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:262:36: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, t_2);
+                                    ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:259:15: warning: 't_3' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, t_3);
+               ^~~~~~~~
+../Core/Src/main.c:262:18: warning: 't_2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, t_2);
+                  ^~~
+arm-none-eabi-gcc -o "try_sec.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\try_sec\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="try_sec.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: try_sec.elf
+ 
+arm-none-eabi-objdump -h -S  try_sec.elf  > "try_sec.list"
+arm-none-eabi-objcopy  -O binary  try_sec.elf  "try_sec.bin"
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18992	     24	   8224	  27240	   6a68	try_sec.elf
+Finished building: default.size.stdout
+ 
+Finished building: try_sec.bin
+ 
+Finished building: try_sec.list
+ 
+17:35:24 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18992	     24	   8224	  27240	   6a68	try_sec.elf
+Finished building: default.size.stdout
+ 
+17:36:29 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:143:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_1,NULL,100,NULL,1,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:144:19: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+       xTaskCreate(T_2,NULL,100,NULL,2,NULL);
+                   ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:259:38: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, t_3);
+                                      ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:262:36: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, t_2);
+                                    ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:259:15: warning: 't_3' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, t_3);
+               ^~~~~~~~
+../Core/Src/main.c:262:18: warning: 't_2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, t_2);
+                  ^~~
+arm-none-eabi-gcc -o "try_sec.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\try_sec\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="try_sec.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: try_sec.elf
+ 
+arm-none-eabi-objdump -h -S  try_sec.elf  > "try_sec.list"
+arm-none-eabi-objcopy  -O binary  try_sec.elf  "try_sec.bin"
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18896	     24	   8224	  27144	   6a08	try_sec.elf
+Finished building: default.size.stdout
+ 
+Finished building: try_sec.bin
+ 
+Finished building: try_sec.list
+ 
+17:36:33 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18896	     24	   8224	  27144	   6a08	try_sec.elf
+Finished building: default.size.stdout
+ 
+18:22:36 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:145:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_1,NULL,100,NULL,1,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:261:38: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, &t_3);
+                                      ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:264:36: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, &t_2);
+                                    ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:264:18: warning: unused variable 'ret' [-Wunused-variable]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, &t_2);
+                  ^~~
+../Core/Src/main.c:261:15: warning: unused variable 'returned' [-Wunused-variable]
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, &t_3);
+               ^~~~~~~~
+../Core/Src/main.c:383:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+../Core/Src/main.c:377:6: warning: 'Error_Handler' defined but not used [-Wunused-function]
+ void Error_Handler(void)
+      ^~~~~~~~~~~~~
+../Core/Src/main.c:360:6: warning: 'HAL_TIM_PeriodElapsedCallback' defined but not used [-Wunused-function]
+ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:341:6: warning: 'StartDefaultTask' defined but not used [-Wunused-function]
+ void StartDefaultTask(void *argument)
+      ^~~~~~~~~~~~~~~~
+../Core/Src/main.c:312:6: warning: 'T_4' defined but not used [-Wunused-function]
+ void T_4(void)
+      ^~~
+../Core/Src/main.c:295:6: warning: 'T_3' defined but not used [-Wunused-function]
+ void T_3(void)
+      ^~~
+../Core/Src/main.c:284:6: warning: 'T_2' defined but not used [-Wunused-function]
+ void T_2(void)
+      ^~~
+make: *** [Core/Src/subdir.mk:41: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:26:09 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:145:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_1,NULL,100,NULL,1,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:261:38: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, &t_3);
+                                      ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:264:36: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, &t_2);
+                                    ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:264:18: warning: unused variable 'ret' [-Wunused-variable]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, &t_2);
+                  ^~~
+../Core/Src/main.c:261:15: warning: unused variable 'returned' [-Wunused-variable]
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, &t_3);
+               ^~~~~~~~
+arm-none-eabi-gcc -o "try_sec.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\try_sec\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="try_sec.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: try_sec.elf
+ 
+arm-none-eabi-objdump -h -S  try_sec.elf  > "try_sec.list"
+arm-none-eabi-objcopy  -O binary  try_sec.elf  "try_sec.bin"
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18848	     24	   8232	  27104	   69e0	try_sec.elf
+Finished building: default.size.stdout
+ 
+Finished building: try_sec.bin
+ 
+Finished building: try_sec.list
+ 
+18:26:36 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18848	     24	   8232	  27104	   69e0	try_sec.elf
+Finished building: default.size.stdout
+ 
+18:37:49 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:145:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_1,NULL,100,NULL,1,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:261:38: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, &t_3);
+                                      ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:264:36: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, &t_2);
+                                    ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:264:18: warning: unused variable 'ret' [-Wunused-variable]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, &t_2);
+                  ^~~
+../Core/Src/main.c:261:15: warning: unused variable 'returned' [-Wunused-variable]
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, &t_3);
+               ^~~~~~~~
+arm-none-eabi-gcc -o "try_sec.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\try_sec\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="try_sec.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: try_sec.elf
+ 
+arm-none-eabi-objdump -h -S  try_sec.elf  > "try_sec.list"
+arm-none-eabi-objcopy  -O binary  try_sec.elf  "try_sec.bin"
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18880	     24	   8232	  27136	   6a00	try_sec.elf
+Finished building: default.size.stdout
+ 
+Finished building: try_sec.bin
+ 
+Finished building: try_sec.list
+ 
+18:37:55 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18880	     24	   8232	  27136	   6a00	try_sec.elf
+Finished building: default.size.stdout
+ 
+18:41:00 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:145:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_1,NULL,100,NULL,1,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:261:38: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, &t_3);
+                                      ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:265:36: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, &t_2);
+                                    ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:265:18: warning: unused variable 'ret' [-Wunused-variable]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, &t_2);
+                  ^~~
+../Core/Src/main.c:261:15: warning: unused variable 'returned' [-Wunused-variable]
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, &t_3);
+               ^~~~~~~~
+arm-none-eabi-gcc -o "try_sec.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\try_sec\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="try_sec.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: try_sec.elf
+ 
+arm-none-eabi-objdump -h -S  try_sec.elf  > "try_sec.list"
+arm-none-eabi-objcopy  -O binary  try_sec.elf  "try_sec.bin"
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18896	     24	   8232	  27152	   6a10	try_sec.elf
+Finished building: default.size.stdout
+ 
+Finished building: try_sec.bin
+ 
+Finished building: try_sec.list
+ 
+18:41:04 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18896	     24	   8232	  27152	   6a10	try_sec.elf
+Finished building: default.size.stdout
+ 
+18:42:45 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:145:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+     xTaskCreate(T_1,NULL,100,NULL,1,NULL);
+                 ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c: In function 'T_1':
+../Core/Src/main.c:261:38: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, &t_3);
+                                      ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:265:36: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, &t_2);
+                                    ^~~
+In file included from ../Core/Src/main.c:27:0:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:321:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+../Core/Src/main.c:265:18: warning: unused variable 'ret' [-Wunused-variable]
+       BaseType_t ret=  xTaskCreate(T_2, NULL, 100, NULL,2, &t_2);
+                  ^~~
+../Core/Src/main.c:261:15: warning: unused variable 'returned' [-Wunused-variable]
+    BaseType_t returned = xTaskCreate(T_3, NULL, 100, NULL,3, &t_3);
+               ^~~~~~~~
+arm-none-eabi-gcc -o "try_sec.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\NTI\RTOS\try_sec\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="try_sec.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: try_sec.elf
+ 
+arm-none-eabi-objdump -h -S  try_sec.elf  > "try_sec.list"
+arm-none-eabi-objcopy  -O binary  try_sec.elf  "try_sec.bin"
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18832	     24	   8232	  27088	   69d0	try_sec.elf
+Finished building: default.size.stdout
+ 
+Finished building: try_sec.bin
+ 
+Finished building: try_sec.list
+ 
+18:42:50 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18832	     24	   8232	  27088	   69d0	try_sec.elf
+Finished building: default.size.stdout
+ 
+18:48:56 **** Incremental Build of configuration Debug for project try_sec ****
+make -j12 all 
+arm-none-eabi-size   try_sec.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18832	     24	   8232	  27088	   69d0	try_sec.elf
+Finished building: default.size.stdout
+ 
